@@ -58,7 +58,7 @@ EnterKey.MouseButton1Click:Connect(function()
 if KeyBox.Text == "W_0plmr" then
 		Frame.Visible = false
 		wait(1)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Yopapa699/ChaddestCat-Hub/main/Main", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Yopapa699/Roblox-Scripts-Hub/main/Main", true))()
 		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "ChaddestCat's Hub"; Text = "script has been loaded!";})
 	else
 		game:GetService("Players").LocalPlayer:Kick("Incorrect Key | discord.gg/gKEcVn6hBM")
