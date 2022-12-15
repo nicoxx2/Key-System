@@ -71,6 +71,6 @@ TextLabel.BackgroundTransparency = 1.000
 TextLabel.Position = UDim2.new(0.204899773, 0, 0, 0)
 TextLabel.Size = UDim2.new(0, 263, 0, 50)
 TextLabel.Font = Enum.Font.LuckiestGuy
-TextLabel.Text = "ChaddestCat's Hub"
+TextLabel.Text = "Roblox Script's Hub"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextSize = 20.000
