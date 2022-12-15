@@ -62,6 +62,7 @@ if KeyBox.Text == "W_0plmr" then
 		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Roblox Script's Hub"; Text = "script has been loaded!";})
 	else
 		game:GetService("Players").LocalPlayer:Kick("Incorrect Key | discord.gg/gKEcVn6hBM")
+		setclipboard("https://discord.gg/gKEcVn6hBM")
 	end	
 end)
 
