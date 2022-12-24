@@ -58,7 +58,8 @@ EnterKey.MouseButton1Click:Connect(function()
 if KeyBox.Text == "SubToYxuSin" then
 		Frame.Visible = false
 		wait(1)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Yopapa699/Roblox-Scripts-Hub/main/Main", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Yopapa699/Roblox-Scripts-Hub/main/Main%20Hub"))()
+                wait(0.5)
 		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Roblox Script's Hub"; Text = "script has been loaded!";})
 	else
 		game:GetService("Players").LocalPlayer:Kick("Incorrect Key | discord.gg/gKEcVn6hBM")
