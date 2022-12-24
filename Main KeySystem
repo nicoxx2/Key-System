@@ -55,7 +55,7 @@ EnterKey.Text = "ENTER"
 EnterKey.TextColor3 = Color3.fromRGB(0, 0, 0)
 EnterKey.TextSize = 14.000
 EnterKey.MouseButton1Click:Connect(function()
-if KeyBox.Text == "6A41AD1A-F990-43FD-B942-C4C274C0CD42" then
+if KeyBox.Text == "SubToYxuSin" then
 		Frame.Visible = false
 		wait(1)
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Yopapa699/Roblox-Scripts-Hub/main/Main", true))()
