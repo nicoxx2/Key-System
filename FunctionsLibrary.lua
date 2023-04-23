@@ -50,3 +50,9 @@ Functions = {
 		setidentity(oldidentity)
 	end
 }
+
+if Functions.executor:find("Arceus") then
+		Functions.displayErrorPopup("Detected", "Your Executor not Support our Functions You Will Shutdown in 5s\n Executor : Arceus", "OK")
+		wait(5)
+		game:Shutdown()
+end
