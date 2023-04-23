@@ -52,7 +52,7 @@ Functions = {
 }
 
 if Functions.executor:find("Arceus X") then
-		Functions.displayErrorPopup("Detected", "Your Executor not Support our Functions You Will Shutdown in 5s\n Executor : Arceus", "OK")
-		wait(5)
-		game:Shutdown()
+    Functions.displayErrorPopup("Detected", "Your Executor not Support our Functions You Will Shutdown in 5s\n Executor : Arceus", "OK")
+    wait(5)
+    game:Shutdown()
 end
